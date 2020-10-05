@@ -1,3 +1,11 @@
-main {
-    background-color: tomato;
+ul {
+    border: 1px dotted blue;
 }
+
+.lists {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+

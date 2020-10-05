@@ -32,5 +32,22 @@ a:hover {
 .crumbs__nav {
 	display: flex;
 	justify-content: space-around;
+	background-color: #eff9f0;
+	color: #291711
 }
+
+.header {
+	background-color: #1a5e63;
+}
+
+.header__logo {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	width: 25%;
+	
+}
+
+
+
 

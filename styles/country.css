@@ -1,2 +1,14 @@
+.country__image {
+    width: 400px;
+}
 
+.country__headline {
+    color: 291711;
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
 

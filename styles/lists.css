@@ -7,5 +7,18 @@ ul {
     justify-content: space-around;
 }
 
+.list__cities {
+    margin: 25px;
+    padding: 25px;
+}
 
+.list__landmarks {
+    margin: 25px;
+    padding: 25px;
+}
+
+.list__citizens {
+    margin: 25px;
+    padding: 25px;
+}
 

@@ -1,6 +1,4 @@
-ul {
-    border: 1px dotted blue;
-}
+
 
 .lists {
     display: flex;
@@ -10,6 +8,7 @@ ul {
 .list__cities {
     margin: 25px;
     padding: 25px;
+  
 }
 
 .list__landmarks {
@@ -22,3 +21,7 @@ ul {
     padding: 25px;
 }
 
+ul {
+    list-style-type: square;
+    padding-left: 0;
+}

@@ -33,7 +33,12 @@ a:hover {
 	display: flex;
 	justify-content: space-around;
 	background-color: #eff9f0;
-	color: #291711
+	color: #291711;
+	padding: 20px;
+	font-size: larger;
+	border-top: 10px solid #768948 ;
+	border-bottom:10px solid #768948;
+
 }
 
 .header {
@@ -51,5 +56,15 @@ a:hover {
 .active-page a {
 	color: #291711;
 }
+body {
+	background-color: #eff9f0;
+	color: #1a5e63;
+}
 
-
+.footer {
+	text-align:center;
+	background-color: #768948;
+	color:#1a5e63;
+	padding:5px;
+	margin-top:5px;
+}

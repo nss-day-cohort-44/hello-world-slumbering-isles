@@ -8,17 +8,19 @@
 .list__cities {
     margin: 25px;
     padding: 25px;
-  
+font-size: larger;  
 }
 
 .list__landmarks {
     margin: 25px;
     padding: 25px;
+    font-size: larger; 
 }
 
 .list__citizens {
     margin: 25px;
     padding: 25px;
+    font-size: larger; 
 }
 
 ul {

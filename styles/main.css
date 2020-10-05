@@ -21,12 +21,12 @@ h1,h2,h3,h4,h5,h6 {
   letter-spacing: 2px;
 }
 
-a:active {
-	background-color: yellow;
+a:visited {
+	color: #768948;
 }
 
 a:hover {
-	color: green;
+	color: #1a5e63;
 }
 
 .crumbs__nav {
@@ -48,6 +48,8 @@ a:hover {
 	
 }
 
-
+.active-page a {
+	color: #291711;
+}
 
 

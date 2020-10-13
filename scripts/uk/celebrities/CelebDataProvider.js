@@ -5,5 +5,5 @@ const ukCelebArray = [
 ]
 
 export const returnCelebArray = () => {
-    return returnCelebArray.slice()
+    return ukCelebArray.slice()
 }

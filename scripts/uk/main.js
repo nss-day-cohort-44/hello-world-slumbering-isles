@@ -1,15 +1,19 @@
 
 import { returnCelebArray } from "./celebrities/CelebDataProvider.js"
-
-const celebsFromDP = returnCelebArray()
-console.log(celebsFromDP)
-
 import {returnLandmarkArray} from "./landmarks/LandmarkDataProvider.js";
-
-const landmarks = returnLandmarkArray();
-console.log(landmarks)
+import { cityHTML } from './cities/CityHTML.js'
 import { returnUKCities } from './cities/CityDataProvider.js'
+
 
 // debug/testing
 const cities = returnUKCities();
 console.log(cities);
+
+const celebsFromDP = returnCelebArray()
+console.log(celebsFromDP)
+
+const landmarks = returnLandmarkArray();
+console.log(landmarks)
+
+const testHTML = cityHTML(cities[2]);
+console.log(testHTML);

@@ -1,13 +1,9 @@
-import { returnMXCities } from './cities/CityDataProvider.js'
-import { cityHTML } from './cities/CityHTML.js'
+// import List components
 import { cityList } from './cities/CityList.js'
+import { landmarkList } from './landmarks/LandmarkList.js';
 
-// debug/testing
-// const cities = returnMXCities();
-// console.log(cities);
 
-// const HTML = cityHTML(cities[0]);
-// console.log(HTML);
-
+// invoke List components
 cityList();
+landmarkList();
 

@@ -1,4 +1,4 @@
-export const landmark = (landmarkobj) => {
+export const landmarkHTML = (landmarkobj) => {
     return`
     <li>${landmarkobj.landmark}</li>
     `

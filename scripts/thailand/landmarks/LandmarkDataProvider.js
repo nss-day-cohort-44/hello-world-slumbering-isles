@@ -13,5 +13,5 @@ const landmarkArray = [
 
 // export function to return a copy of the cityArray
 export const returnThaiLandmarks = () => {
-    return cityArray.slice();
+    return landmarkArray.slice();
 }

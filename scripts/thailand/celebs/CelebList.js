@@ -1,6 +1,6 @@
 // import our dependency functions
 import { returnThaiCelebs } from './CelebDataProvider.js'
-import { cityHTML } from './CityHTML.js'
+import { celebHTML } from './CelebHTML.js'
 
 export const celebList = () => {
 
